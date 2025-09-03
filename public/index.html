@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cricbuzz Commentary Fetcher</title>
+  </head>
+  <body>
+    <h1>Cricbuzz Commentary Fetcher</h1>
+    <form action="/fetch" method="POST">
+      <label for="matchIds">Enter Match IDs (comma separated):</label
+      ><br /><br />
+      <textarea
+        id="matchIds"
+        name="matchIds"
+        rows="5"
+        cols="50"
+        placeholder="118619,118620"
+      ></textarea
+      ><br /><br />
+      <button type="submit">Fetch Commentary</button>
+    </form>
+  </body>
+</html>
